@@ -51,3 +51,24 @@ A Job Portal web application built using Django that allows users to register, l
 ### 👤 Dashboard
 
 ![Dashboard](screenshots/dashboard.png)
+
+
+## 📂 Project Structure
+
+job-portal/
+├── Jobs/
+├── job_portal/
+├── static/
+├── templates/
+├── media/
+├── screenshots/
+├── manage.py
+├── requirements.txt
+└── README.md
+
+
+## 👨‍💻 Author
+
+**Jayasuriya J**
+
+- GitHub: https://github.com/Jayasuriya-18
