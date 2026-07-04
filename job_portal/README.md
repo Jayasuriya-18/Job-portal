@@ -67,6 +67,11 @@ job-portal/
 └── README.md
 
 
+## 🌐 Live Demo
+
+https://job-portal-wzrd.onrender.com
+
+
 ## 👨‍💻 Author
 
 **Jayasuriya J**
