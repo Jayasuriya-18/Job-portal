@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h2 class="mb-4">My Applications</h2>
+
+<div class="row">
+    {% for app in applications %}
+    <div class="col-md-6 mb-4">
+
+        <div class="card shadow-sm h-100">
+            <div class="card-body">
+
+                <h4 class="card-title">{{ app.job.title }}</h4>
+
+                <p><strong>Company:</strong> {{ app.job.company }}</p>
+                <p><strong>Applied on:</strong> {{ app.applied_at }}</p>
+                <p><strong>Resume:</strong> {{ app.resume }}</p>
+
+            </div>
+        </div>
+
+    </div>
+    {% endfor %}
+</div>
+
+{% endblock %}

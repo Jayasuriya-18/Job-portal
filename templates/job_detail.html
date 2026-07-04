@@ -1,0 +1,22 @@
+
+{% extends 'base.html' %}
+
+{% block content %}
+<center>
+<div class="card shadow-sm">
+    <div class="card-body">
+        <h2 class="card-title">{{ job.title }}</h2>
+
+        <p><strong>Company:</strong> {{ job.company }}</p>
+        <p><strong>Location:</strong> {{ job.location }}</p>
+        <p><strong>Salary:</strong> {{ job.salary }}</p>
+        <p><strong>Description:</strong> {{ job.description }}</p>
+
+        <a href="/apply/{{ job.id }}/" class="btn btn-success">
+            Apply Now
+        </a>
+    </div>
+</div>
+</center>
+
+{% endblock %}
